@@ -25,13 +25,16 @@
     text-align: center;
 }
 
-#msgError {
+.show-msgError {
     text-align: center;
     color: #ff0000;
     background-color: #ffbbbb;
     padding: 10px;
     border-radius: 4px;
     width: 250px;
+}
+
+.hide-msgError {
     display: none;
 }
 

@@ -8,7 +8,6 @@
     <!-- css -->
     <link rel="stylesheet" href="css/style.css"> <!-- js -->
     <link rel="stylesheet" href="css/login-page.css"> <!-- js -->
-    <script defer src="js/login.js"></script>
     <!--  -->
     <title>Cyan02 - Login</title>
 </head>
@@ -21,23 +20,24 @@
                 <h2>Welcome</h2>
                 <p>Login to continue</p>
             </div>
-            <div id='msgError'>error</div>
+            <div id='msgError' class="hide-msgError">error</div>
 
-            <form action="#" class="form-login">
+            <form action="home.html" class="form-login">
                 <div class="input-group">
                     <input type="email" class="input" placeholder="email@email.com" name="email" id="email">
-                    <div id='msgError'>error</div>
                     <input type="password" class="input" placeholder="Password" name="password" id="password">
-                    <div id='msgError'>error</div>
                 </div>
                 <div class="btn-group">
-                    <input type="submit" class="btn btn-black" value="Login">
-                    <input type="submit" class="btn btn-black" value="create account">
+                    <!--  -->
+                    <button id="btn-login" class="btn btn-black"> Submit</button>
+                    <!--  -->
+                    <input type="button" class="btn btn-black" value="create account">
                     <a href="#">Forgot Password</a>
                 </div>
             </form>
         </div>
     </section>
+    <script src="js/login.js"></script>
 
 </body>
 
