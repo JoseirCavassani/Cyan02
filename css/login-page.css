@@ -6,7 +6,6 @@
     align-items: center;
     justify-content: space-around;
     background-color: var(--color3);
-
 }
 
 .container-form {
@@ -79,4 +78,26 @@ form input[type=password]:focus {
     transform: scale(1.1);
     text-transform: uppercase;
     transition: var(--transition);
+}
+
+/* small devices */
+@media only screen and (max-width: 768px) {
+
+    .container-form {
+        height: 500px;
+        width: 300px;
+
+    }
+
+}
+
+/* large devices */
+@media only screen and (min-width: 769px) {
+
+    .container-form {
+        height: 500px;
+        width: 500px;
+
+    }
+
 }
